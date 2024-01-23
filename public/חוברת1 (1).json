@@ -1,0 +1,30 @@
+[{
+    "number": 5,
+    "firstName": "יהונתן",
+    "lastName": "אוחנה",
+    "class": "ג"
+   },
+   {
+    "number": 9,
+    "firstName": "מיכאל",
+    "lastName": "אייזן",
+    "class": "ג"
+   },
+   {
+    "number": 12,
+    "firstName": "אברהם",
+    "lastName": "אלנדאף",
+    "class": "ג"
+   },
+   {
+    "number": 14,
+    "firstName": "אהרון",
+    "lastName": "אסולין",
+    "class": "ג"
+   },
+   {
+    "number": 18,
+    "firstName": "צבי",
+    "lastName": "אפשטיין",
+    "class": "ג"
+   }]
