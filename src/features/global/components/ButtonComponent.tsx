@@ -2,10 +2,10 @@ import Button from "@mui/material/Button";
 import { FC } from "react";
 
 type ButtonComponentProps = {
-  variant: "contained" | "outlined" | "text";
-  field: string;
-  color: "info" | "inherit";
-  disable: boolean;
+  variant?: "contained" | "outlined" | "text";
+  field?: string;
+  color?: "info" | "inherit";
+  disable?: boolean;
 };
 
 const ButtonComponent: FC<ButtonComponentProps> = ({

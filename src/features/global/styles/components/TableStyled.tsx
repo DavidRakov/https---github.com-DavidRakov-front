@@ -5,7 +5,7 @@ export const StyledTable = styled.table`
   border-collapse: collapse;
   /* border-collapse: separate; */
   /* border-spacing: 5px 10px; */
-
+  width: 100%;
   caption-side: bottom;
   /* empty-cell: show | hide;  */
   /* empty-cell is a property of table or the cells themselves */
@@ -13,7 +13,7 @@ export const StyledTable = styled.table`
   /* vertical-align: baseline | sub | super | text-top | 
                 text-bottom | middle | top | bottom | 
                 <percentage> | <length> */
-/* 
+  /* 
   tbody {
     vertical-align: top;
   }              */
@@ -65,10 +65,10 @@ export const TableRow = styled.tr`
   } */
 `;
 export const TableCell = styled.td`
-
   padding: 4px;
   border: 1px solid #ddd;
-  max-width: 10px;  height: 15px;
+  max-width: 10px;
+  height: 15px;
   white-space: nowrap;
   overflow: hidden;
   /* text-overflow: ellipsis; */

@@ -8,9 +8,9 @@ type IconProps = {
 const Icon: FC<IconProps> = ({ text }) => {
   return (
     <>
-      <Avatar sx={{ m: 1, bgcolor: "secondary.main" }} data-testid="AvatatIcon">
+      {/* <Avatar sx={{ m: 1, bgcolor: "secondary.main" }} data-testid="AvatatIcon">
         <LockOutlinedIcon data-testid="lock-outlined-icon" />
-      </Avatar>
+      </Avatar> */}
       <Typography component={"h1"}>{text}</Typography>
     </>
   );

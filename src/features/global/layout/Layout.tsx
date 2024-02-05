@@ -1,16 +1,16 @@
+import RouterDom from "../router/RouterDOM";
 import { BoxStyled } from "../styles/components/BoxStyled";
-import { GlobalStyles } from "../styles/components/Global";
-import Footer from "./footer/Footer";
-import Header from "./header/Header";
-import MainPage from "./main/Main";
+// import { GlobalStyles } from "../styles/components/Global";
+// import Footer from "./footer/Footer";
+// import Header from "./header/Header";
 
 const Layout = () => {
   return (
     <>
-      <GlobalStyles />
+      {/* <GlobalStyles /> */}
       {/* <Header /> */}
-      <BoxStyled>
-        <MainPage />
+      <BoxStyled data-testid="box-element">
+        <RouterDom />
       </BoxStyled>
       {/* <Footer /> */}
     </>

@@ -21,6 +21,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "src/tests/lengthOfString.test.ts"],
+  "include": ["src", "src/tests/lengthOfString.test.ts", "cypress"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

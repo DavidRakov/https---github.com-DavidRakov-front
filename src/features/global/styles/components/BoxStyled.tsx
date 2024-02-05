@@ -41,6 +41,7 @@ export const BoxStyled = styled.div<BoxProps>`
   border: 0.5px solid;
   flex: 1;
   margin: 3px;
+  width: 100%;
   /* transition: 0.2s all ease-out; */
 
   /* &:hover {

@@ -50,8 +50,8 @@ export const lightTheme: ThemeType = {
     light: "#eeeeee",
   },
   backgroundColor: {
-    header:"#999999",
-    footer:"#999999",
+    header: "#999999",
+    footer: "#999999",
     primary: "wight",
     secondary: "#999999",
     light: "#eeeeee",
